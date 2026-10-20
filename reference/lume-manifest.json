@@ -1,0 +1,159 @@
+{
+ "origin": "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/",
+ "assets": {
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/": {
+   "path": "/index.html",
+   "bytes": 4046,
+   "sha256": "d2266395ea8b8377d597dcb11bad21ce479423bbfad2ef2f4c2cdd17cf901ed2",
+   "type": "text/html"
+  },
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/assets/favicon.svg": {
+   "path": "/assets/favicon.svg",
+   "bytes": 206,
+   "sha256": "8050d0a6d3d71f846a38e3fb34b937c4b7f93381ea19a3d90cef3ebf5d1e306a",
+   "type": "image/svg+xml"
+  },
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/sobre": {
+   "note": "html route (spa?)",
+   "bytes": 4954,
+   "sha256": "bccd258315ead57ea77505d30c8a61f6885ab042929fb0227976e1d9a671089b"
+  },
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/assets/images/vento.webp": {
+   "path": "/assets/images/vento.webp",
+   "bytes": 177356,
+   "sha256": "78be00439874f9ae1759886a3c35eea1cb1ff30ae2a286f3945bc417cce84c32",
+   "type": "application/octet-stream"
+  },
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/galeria": {
+   "note": "html route (spa?)",
+   "bytes": 4954,
+   "sha256": "e20d94e0ae32d88e7497589fe93723d9c0234ed7bfbe1557d11c168f8b0ff098"
+  },
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/pages.css": {
+   "path": "/pages.css",
+   "bytes": 54114,
+   "sha256": "b540402a07f82dd4e943755aebe2357982f1ffa4d4e21d4d1cd870a21a6c9180",
+   "type": "text/css"
+  },
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/base.css": {
+   "path": "/base.css",
+   "bytes": 20399,
+   "sha256": "bca2afcda62e78d8c567e990cf62d0b4190abcc607095d1e895c752164eccff6",
+   "type": "text/css"
+  },
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/portfolio": {
+   "note": "html route (spa?)",
+   "bytes": 4954,
+   "sha256": "a5bd4cc137acb80f33d4f4d4774a10ac6c58047d3f6a56c25dd2cc42b8738fe9"
+  },
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/assets/fonts/satoshi-400.woff2": {
+   "path": "/assets/fonts/satoshi-400.woff2",
+   "bytes": 25516,
+   "sha256": "50dca57f0b77918e0fb7dac998c3f5ef6b0c2a29657da97658a04f98ac532fc5",
+   "type": "application/octet-stream"
+  },
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/js/app.js": {
+   "path": "/js/app.js",
+   "bytes": 7214,
+   "sha256": "9895cacad42de5b14d5a778c78fe42b57c6c90329b975c7fb07ffc824491fd51",
+   "type": "text/javascript"
+  },
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/assets/fonts/cormorant-400.ttf": {
+   "path": "/assets/fonts/cormorant-400.ttf",
+   "bytes": 290236,
+   "sha256": "6d37a86241a25d63f8fe6018b4c083449886b7165c1acb15edd0f574f690ecf7",
+   "type": "application/octet-stream"
+  },
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/assets/fonts/satoshi-700.woff2": {
+   "path": "/assets/fonts/satoshi-700.woff2",
+   "bytes": 25328,
+   "sha256": "353a7fbfb4475f0c31470a7449226006cb64211c71055ca9db860a8acdaa9f68",
+   "type": "application/octet-stream"
+  },
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/assets/fonts/satoshi-500.woff2": {
+   "path": "/assets/fonts/satoshi-500.woff2",
+   "bytes": 25596,
+   "sha256": "af02a72246f53ad49c44a591921edbd39ec8258a03d8cc2e0532aa1e497e85b4",
+   "type": "application/octet-stream"
+  },
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/assets/fonts/cormorant-italic-400.ttf": {
+   "path": "/assets/fonts/cormorant-italic-400.ttf",
+   "bytes": 293036,
+   "sha256": "0b9a8a33cfaa624d30f70f9b6686da769b319b8c37a55af16e29fef690108bbf",
+   "type": "application/octet-stream"
+  },
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/assets/fonts/cormorant-500.ttf": {
+   "path": "/assets/fonts/cormorant-500.ttf",
+   "bytes": 290496,
+   "sha256": "1724047c8988ca5155bff667bc48fa52e97d57aabc6b42eebbf986f21a4be20b",
+   "type": "application/octet-stream"
+  },
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/js/contact.js": {
+   "path": "/js/contact.js",
+   "bytes": 1093,
+   "sha256": "68fc4e6bd3b98b133819a4abc32145d7cf300ce2e240b0842b7b16f20563a3a1",
+   "type": "text/javascript"
+  },
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/js/content.js": {
+   "path": "/js/content.js",
+   "bytes": 6245,
+   "sha256": "7204e30efe387c5b1e173fb58267981150073a84d35e1a062d8550e642627553",
+   "type": "text/javascript"
+  },
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/js/motion.js": {
+   "path": "/js/motion.js",
+   "bytes": 18267,
+   "sha256": "bcfb90b1201304bc8723b750cb6e0922aecc30427f71f49eb460824283db5cde",
+   "type": "text/javascript"
+  },
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/js/views.js": {
+   "path": "/js/views.js",
+   "bytes": 18718,
+   "sha256": "b399aefa8924bea3fd652d9faa0d5c27f2cb638b729c1a26d98833d45eda13e3",
+   "type": "text/javascript"
+  },
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/js/gallery.js": {
+   "path": "/js/gallery.js",
+   "bytes": 2289,
+   "sha256": "59a6ab71e34366e5ef7fa8af0e338dbcc4f091aecbb73f2ac7d23f3d7171739e",
+   "type": "text/javascript"
+  },
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/js/utils.js": {
+   "path": "/js/utils.js",
+   "bytes": 1123,
+   "sha256": "8b78bdb9236e5f1e79a87339be9ce8597f5e17580bfa300ccc641f15a3451380",
+   "type": "text/javascript"
+  },
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/vendor/lenis-1.3.26.mjs": {
+   "path": "/vendor/lenis-1.3.26.mjs",
+   "bytes": 33166,
+   "sha256": "b7a2f6896b9ce086d8192ff17c91aad457447976764971fe5011c42169602e9e",
+   "type": "text/javascript"
+  },
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/js/story.js": {
+   "path": "/js/story.js",
+   "bytes": 2636,
+   "sha256": "7632563a1542a07e8240d28e77d5387cb5d72e01bb2082e654fb626945eb68af",
+   "type": "text/javascript"
+  },
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/js/contact-view.js": {
+   "path": "/js/contact-view.js",
+   "bytes": 2333,
+   "sha256": "ce1d5a96989260162fc2a6e6c569d96b08a67df47af455197173681439656c74",
+   "type": "text/javascript"
+  }
+ },
+ "failures": {
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/Lume": "HTTP Error 404: Not Found",
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/width=device-width,initial-scale=1": "HTTP Error 404: Not Found",
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/js/lume-meu-briefing.txt": "HTTP Error 404: Not Found",
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/ensaio/${p.slug}": "HTTP Error 404: Not Found",
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/js/${image(key)}": "HTTP Error 404: Not Found",
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/js/${categoryURL(c.slug)}": "HTTP Error 404: Not Found",
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/ensaio/${next.slug}": "HTTP Error 404: Not Found",
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/ensaio/${frame.slug}": "HTTP Error 404: Not Found",
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/js/${categoryURL(project.category)}": "HTTP Error 404: Not Found",
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/js/${href}": "HTTP Error 404: Not Found",
+  "https://lume-fotografia-template-dms.sharpdog128.chatgpt.site/js/${image(": "HTTP Error 404: Not Found"
+ }
+}

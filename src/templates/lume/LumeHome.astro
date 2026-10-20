@@ -1,0 +1,31 @@
+---
+import type { LumeHomeContent } from "../../types/content";
+import { imageSrcset, sizedImageUrl } from "../../utils/image-url";
+
+interface Props {
+	content: LumeHomeContent;
+}
+
+const { heroTitle, heroTitleEmphasis, heroDescription, heroImage } = Astro.props.content;
+const heroWidths = [640, 1024, 1600, 2400] as const;
+---
+
+<section class="hero container">
+	<h1 class="display-title">
+		<span class="title-line">{heroTitle}</span>
+		{heroTitleEmphasis && <span class="title-line"><em>{heroTitleEmphasis}</em></span>}
+	</h1>
+	{heroDescription && <p class="hero-description">{heroDescription}</p>}
+	<figure class="hero-image">
+		<img
+			src={sizedImageUrl(heroImage.url, 1600)}
+			srcset={imageSrcset(heroImage.url, heroWidths)}
+			sizes="(max-width: 760px) 100vw, 80vw"
+			width={heroImage.width}
+			height={heroImage.height}
+			alt={heroImage.alt}
+			style={`object-position:${heroImage.focus.x * 100}% ${heroImage.focus.y * 100}%`}
+			fetchpriority="high"
+		/>
+	</figure>
+</section>

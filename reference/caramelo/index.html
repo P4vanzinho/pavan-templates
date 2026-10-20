@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>CaraMelo · Bolos e doces</title>
+    <meta
+      name="description"
+      content="Bolos, brigadeiros, beijinhos e docinhos feitos à mão. Conheça a vitrine CaraMelo."
+    />
+    <meta name="theme-color" content="#fcf0f2" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,500,30,1;0,9..144,600,30,1;1,9..144,500,30,1&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="opening.css" />
+    <script>
+      if (!matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        document.documentElement.classList.add("intro-pending");
+        setTimeout(
+          () => document.documentElement.classList.remove("intro-pending"),
+          1600,
+        );
+      }
+    </script>
+    <script defer src="vendor/swiper/swiper-bundle.min.js"></script>
+    <script type="module" src="app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+    <header class="header">
+      <div class="header-inner wrap">
+        <a class="brand" href="#inicio" aria-label="CaraMelo, início">Cara<span>Melo</span><i aria-hidden="true">✳</i></a>
+        <nav id="navigation" aria-label="Navegação principal">
+          <a href="#vitrine">Nossa vitrine</a
+          ><a href="#jeito">O jeito CaraMelo</a
+          ><a href="#encomenda">Encomendas</a>
+        </nav>
+        <button class="header-order" data-open-order>
+          Faça seu pedido <span class="button-arrow" aria-hidden="true">↗</span
+          ><b class="bag-count" hidden>0</b></button
+        ><button
+          class="menu-toggle"
+          aria-label="Abrir menu"
+          aria-controls="navigation"
+          aria-expanded="false"
+        >
+          <span></span><span></span>
+        </button>
+      </div>
+    </header>
+    <main id="conteudo" tabindex="-1">
+      <section class="opening" id="inicio" aria-labelledby="opening-title">
+        <div class="opening-media">
+          <picture>
+            <source media="(max-width:760px)" srcset="assets/hero-rose.webp">
+            <img src="assets/opening-table.webp" width="2560" height="1440" alt="Bolo rosa com cerejas e docinhos artesanais sobre uma mesa de festa" fetchpriority="high">
+          </picture>
+        </div>
+        <div class="opening-inner wrap">
+          <div class="opening-copy">
+            <h1 id="opening-title" aria-label="Tem dias que pedem um doce encontro."><span class="hero-line"><span>Tem dias que</span></span><span class="hero-line"><span>pedem um</span></span><span class="hero-line"><span><em>doce encontro.</em></span></span></h1>
+            <p class="opening-description">Bolos, brigadeiros e os clássicos da sua festa.</p>
+            <div class="opening-actions"><a class="button light" href="#vitrine"><span>Ver bolos e doces</span><span class="button-arrow" aria-hidden="true">↗</span></a><a class="opening-scroll" href="#vitrine" aria-label="Explorar a vitrine"><span aria-hidden="true">↓</span></a></div>
+          </div>
+        </div>
+      </section>
+      <section class="intro wrap" aria-label="Nossa essência">
+        <p data-lines>Bolo na mesa.<br /><em>Todo mundo perto.</em></p>
+        <span class="tiny-flower" aria-hidden="true">✳</span>
+      </section>
+      <section class="showcase" id="vitrine">
+        <div class="wrap">
+          <div class="section-heading">
+            <div>
+              <h2 data-lines>Escolha os<br /><em>seus favoritos.</em></h2>
+            </div>
+          </div>
+          <div class="catalog-bar">
+            <div class="tabs" role="tablist" aria-label="Categorias da vitrine">
+              <button
+                role="tab"
+                id="tab-bolos"
+                aria-controls="products"
+                aria-selected="true"
+                data-category="bolos"
+              >
+                Bolos <sup>03</sup></button
+              ><button
+                role="tab"
+                id="tab-docinhos"
+                aria-controls="products"
+                aria-selected="false"
+                tabindex="-1"
+                data-category="docinhos"
+              >
+                Docinhos <sup>04</sup></button
+              ><button
+                role="tab"
+                id="tab-encontros"
+                aria-controls="products"
+                aria-selected="false"
+                tabindex="-1"
+                data-category="encontros"
+              >
+                Para compartilhar <sup>02</sup>
+              </button>
+            </div>
+          </div>
+          <div
+            class="product-grid"
+            id="products"
+            role="tabpanel"
+            aria-labelledby="tab-bolos"
+          ></div>
+        </div>
+      </section>
+      <section class="story wrap" id="jeito">
+        <div class="story-visual">
+          <div
+            class="story-photo curtain-frame"
+            data-curtain
+            data-parallax-scene
+          >
+            <img
+              data-parallax
+              src="assets/sweets.webp"
+              width="1536"
+              height="1024"
+              loading="lazy"
+              alt="Caixa de brigadeiros, beijinhos e docinhos de leite em pó feitos à mão"
+            />
+          </div>
+          <div class="story-tag">
+            brigadeiro,<br />beijinho &<br /><em>leitinho.</em>
+          </div>
+        </div>
+        <div class="story-copy">
+          <h2 data-lines>Cara de festa.<br />Melo de <em>família.</em></h2>
+          <p>
+            Melo é o sobrenome de quem faz. CaraMelo é o nome que vai na caixa.
+          </p>
+          <p>Bolos e docinhos preparados à mão, para a sua festa.</p>
+          <span class="signature">CaraMelo</span>
+        </div>
+      </section>
+      <section class="reviews" id="depoimentos" aria-labelledby="reviews-title">
+        <div class="reviews-heading wrap">
+          <div><h2 id="reviews-title" data-lines>Quem prova,<br><em>conta.</em></h2></div>
+        </div>
+        <div class="reviews-viewport" role="region" aria-roledescription="carrossel" aria-label="Depoimentos ilustrativos"><div class="reviews-track"></div></div>
+        <div class="reviews-dots" aria-label="Escolher depoimento"></div>
+      </section>
+      <section class="occasion" id="encomenda">
+        <div class="wrap occasion-layout">
+          <div class="occasion-intro">
+            <h2 data-lines>O que a gente<br />vai <em>celebrar?</em></h2>
+          </div>
+          <div class="occasion-picker" data-reveal>
+            <span class="step-label">QUAL É A OCASIÃO?</span>
+            <div class="occasion-options">
+              <button
+                class="selected"
+                data-occasion="Aniversário"
+                aria-pressed="true"
+              >
+                <span>✳</span> Aniversário <i>↗</i></button
+              ><button data-occasion="Um encontro" aria-pressed="false">
+                <span>♡</span> Um encontro <i>↗</i></button
+              ><button data-occasion="Um presente" aria-pressed="false">
+                <span>◇</span> Um presente <i>↗</i></button
+              ><button data-occasion="Só uma vontade" aria-pressed="false">
+                <span>☺</span> Só uma vontade <i>↗</i>
+              </button>
+            </div>
+            <div class="occasion-recommendation" aria-live="polite">
+              <h3 id="suggestion-title">Bolo e docinhos.</h3>
+              <p id="suggestion-text">
+                Uma combinação para a mesa do parabéns.
+              </p>
+            </div>
+            <button class="button dark" data-open-order>
+              <span>Faça seu pedido</span
+              ><span class="button-arrow" aria-hidden="true">↗</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq wrap">
+        <div>
+          <h2 data-lines>Antes de<br /><em>encomendar.</em></h2>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>Como funciona uma encomenda?<span>+</span></summary>
+            <p>
+              Adicione os produtos, ajuste as quantidades e preencha seus dados.
+              Neste protótipo, o envio é apenas simulado.
+            </p>
+          </details>
+          <details>
+            <summary>Posso personalizar o bolo?<span>+</span></summary>
+            <p>
+              Sim. Sabores, acabamento e tamanho são combinados no atendimento.
+            </p>
+          </details>
+          <details>
+            <summary>
+              Tem opções para restrições alimentares?<span>+</span>
+            </summary>
+            <p>
+              As receitas podem conter leite, ovos, glúten e castanhas. Informe
+              suas restrições e confirme os ingredientes e o risco de
+              contaminação cruzada antes de pedir.
+            </p>
+          </details>
+          <details>
+            <summary>Com quanto tempo devo pedir?<span>+</span></summary>
+            <p>
+              Consulte a disponibilidade para a sua data. Para festas maiores,
+              procure com antecedência.
+            </p>
+          </details>
+        </div>
+      </section>
+      <section class="closing">
+        <div class="wrap">
+          <div class="closing-stage">
+            <figure
+              class="closing-sweet closing-sweet--left"
+              data-sweet="left"
+              aria-hidden="true"
+            >
+              <img
+                src="assets/brigadeiro-cutout.webp"
+                width="600"
+                height="600"
+                loading="lazy"
+                alt=""
+              />
+            </figure>
+            <h2 data-lines>Falta só<br /><em>o parabéns.</em></h2>
+            <figure
+              class="closing-sweet closing-sweet--right"
+              data-sweet="right"
+              aria-hidden="true"
+            >
+              <img
+                src="assets/beijinho-cutout.webp"
+                width="600"
+                height="600"
+                loading="lazy"
+                alt=""
+              />
+            </figure>
+          </div>
+          <button class="button light" data-open-order>
+            <span>Faça seu pedido</span
+            ><span class="button-arrow" aria-hidden="true">↗</span>
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer wrap">
+      <div class="footer-main">
+        <div class="footer-branding">
+          <span class="brand footer-brand-placeholder" aria-label="CaraMelo, início">Cara<span>Melo</span><i aria-hidden="true">✳</i></span>
+          <p>Feito sob encomenda, com tempo e cuidado.</p>
+        </div>
+        <div class="footer-column">
+          <span class="footer-label">Vamos conversar</span>
+          <button type="button" class="footer-link">oi@caramelo.com.br</button>
+          <button type="button" class="footer-link">Instagram <span aria-hidden="true">↗</span></button>
+        </div>
+        <div class="footer-column">
+          <span class="footer-label">Onde estamos</span>
+          <span>Curitiba, Brasil</span>
+          <span>Encomendas com antecedência</span>
+          <button type="button" class="footer-link">Privacidade e políticas <span aria-hidden="true">↗</span></button>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> CaraMelo · Confeitaria</span>
+        <button type="button" class="text-link footer-link">De volta ao começo <span>↑</span></button>
+        <span>Protótipo conceitual · catálogo ilustrativo</span>
+      </div>
+    </footer>
+    <dialog
+      data-lenis-prevent
+      id="product-dialog"
+      class="product-dialog"
+      aria-labelledby="detail-title"
+    >
+      <button class="close-dialog" data-close aria-label="Fechar detalhes">
+        ×
+      </button>
+      <div id="product-detail"></div>
+    </dialog>
+    <dialog
+      data-lenis-prevent
+      id="order-dialog"
+      class="order-dialog cart-sheet"
+      aria-labelledby="cart-title"
+    >
+      <div class="sheet-header">
+        <p class="eyebrow">CARAMELO</p>
+        <h2 id="cart-title">Seu pedido.</h2>
+        <button class="close-dialog" data-close aria-label="Fechar pedido">
+          ×
+        </button>
+        <ol class="cart-progress" aria-label="Etapas do pedido">
+          <li data-progress="cart" aria-current="step">
+            <span>01</span> Pedido
+          </li>
+          <li data-progress="details"><span>02</span> Seus dados</li>
+          <li data-progress="review"><span>03</span> Revisão</li>
+        </ol>
+      </div>
+      <section
+        class="cart-step"
+        data-order-step="cart"
+        aria-label="Produtos do pedido"
+      >
+        <div class="cart-heading">
+          <h3>O que vai na caixa?</h3>
+          <span id="cart-count-label" aria-live="polite"></span>
+        </div>
+        <div id="cart-items"></div>
+        <div class="cart-empty" id="cart-empty">
+          <span aria-hidden="true">♡</span>
+          <h3>Ainda está vazia.</h3>
+          <p>Escolha seus bolos e docinhos na vitrine.</p>
+          <button class="button dark" data-browse-products>
+            <span>Escolher produtos</span><span aria-hidden="true">↗</span>
+          </button>
+        </div>
+        <div class="cart-footer" id="cart-footer" hidden>
+          <p class="cart-occasion" id="cart-occasion" aria-live="polite">
+            <span>Ocasião escolhida:</span>
+            <strong data-occasion-value>—</strong>
+            <small data-occasion-note></small>
+          </p>
+          <p class="cart-note">Valores e disponibilidade a confirmar.</p>
+          <button class="button dark" id="cart-continue">
+            <span>Continuar</span><span aria-hidden="true">↗</span></button
+          ><button class="text-link" data-browse-products>
+            Continuar escolhendo <span>←</span>
+          </button>
+        </div>
+      </section>
+      <section
+        class="cart-step"
+        data-order-step="details"
+        aria-label="Dados do cliente"
+        hidden
+      >
+        <button class="step-back" data-back-cart>← Voltar ao pedido</button>
+        <h3>Seus dados.</h3>
+        <form id="order-form">
+          <label
+            >Nome completo<input
+              name="name"
+              autocomplete="name"
+              required
+              maxlength="100"
+              placeholder="Seu nome"
+          /></label>
+          <div class="form-row">
+            <label
+              >E-mail<input
+                name="email"
+                type="email"
+                autocomplete="email"
+                required
+                maxlength="200"
+                placeholder="voce@email.com" /></label
+            ><label
+              >Telefone / WhatsApp<input
+                name="phone"
+                type="tel"
+                autocomplete="tel"
+                inputmode="tel"
+                required
+                minlength="8"
+                maxlength="24"
+                placeholder="(00) 00000-0000"
+            /></label>
+          </div>
+          <div class="form-row">
+            <label
+              >Data desejada<input name="date" type="date" required /></label
+            ><label
+              >Quantas pessoas?<input
+                name="guests"
+                type="number"
+                min="1"
+                max="1000"
+                value="10"
+                required
+            /></label>
+          </div>
+          <div class="form-row">
+            <label
+              >Ocasião<select name="occasion">
+                <option>Aniversário</option>
+                <option>Um encontro</option>
+                <option>Um presente</option>
+                <option>Só uma vontade</option>
+              </select></label
+            ><label
+              >Como prefere receber?<select name="fulfillment">
+                <option>A combinar</option>
+                <option>Retirada</option>
+                <option>Entrega</option>
+              </select></label
+            >
+          </div>
+          <label id="address-field" hidden
+            >Endereço desejado<textarea
+              name="address"
+              rows="2"
+              maxlength="500"
+              autocomplete="street-address"
+              placeholder="Rua, número, bairro, cidade e CEP"
+              disabled
+            ></textarea>
+          </label>
+          <label
+            >Observações <span class="optional">Opcional</span
+            ><textarea
+              name="idea"
+              rows="3"
+              maxlength="1000"
+              placeholder="Sabores, decoração ou alguma restrição alimentar"
+            ></textarea>
+          </label>
+          <button class="button dark" type="submit">
+            <span>Revisar pedido</span><span aria-hidden="true">↗</span>
+          </button>
+          <p class="demo-caption">Demonstração. Nenhum dado será enviado.</p>
+        </form>
+      </section>
+      <section
+        class="cart-step"
+        data-order-step="review"
+        aria-label="Revisão do pedido"
+        hidden
+      >
+        <button class="step-back" data-back-details>← Editar seus dados</button>
+        <h3>Confira seu pedido.</h3>
+        <div class="review-heading">
+          <h4>Produtos</h4>
+          <button class="text-link" data-back-cart>
+            Editar <span aria-hidden="true">↗</span>
+          </button>
+        </div>
+        <div id="review-items" class="review-items"></div>
+        <div class="review-heading">
+          <h4>Seus dados</h4>
+          <button class="text-link" data-back-details>
+            Editar <span aria-hidden="true">↗</span>
+          </button>
+        </div>
+        <dl class="review-customer" id="review-customer"></dl>
+        <div class="cart-footer">
+          <p class="cart-note">
+            Valores e disponibilidade sujeitos à confirmação.
+          </p>
+          <button class="button dark" id="simulate-order">
+            <span>Simular envio do pedido</span
+            ><span class="send-icon" aria-hidden="true">↗</span>
+          </button>
+          <p class="demo-caption" id="submission-status" role="status">
+            Este protótipo não envia e-mails.
+          </p>
+        </div>
+      </section>
+      <section
+        class="cart-step order-confirmation"
+        data-order-step="success"
+        aria-label="Simulação concluída"
+        hidden
+      >
+        <span class="success-flower" aria-hidden="true">✳</span>
+        <p class="eyebrow">SIMULAÇÃO CONCLUÍDA</p>
+        <h3 tabindex="-1" id="order-success-title">
+          Seu pedido<br /><em>está montado.</em>
+        </h3>
+        <p>Nenhum e-mail foi enviado.</p>
+        <details class="summary-details">
+          <summary>Ver resumo <span>+</span></summary>
+          <pre id="order-summary"></pre>
+        </details>
+        <button class="button dark" id="copy-summary">
+          <span>Copiar resumo</span><span aria-hidden="true">↗</span></button
+        ><button class="text-link" data-browse-products>
+          Voltar à vitrine <span>←</span>
+        </button>
+      </section>
+    </dialog>
+    <div class="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>

@@ -1,0 +1,183 @@
+{
+ "origin": "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/",
+ "assets": {
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/": {
+   "path": "/index.html",
+   "bytes": 19672,
+   "sha256": "de53c710b5c5db3328f8ea0c20ee98c784945caf5bf481dbdcc17a6b2d0b2af4",
+   "type": "text/html"
+  },
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/assets/favicon.svg": {
+   "path": "/assets/favicon.svg",
+   "bytes": 241,
+   "sha256": "60957b099c05f608b941af1911cc4fee442987660d7113842399fa1709416a05",
+   "type": "image/svg+xml"
+  },
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/assets/brigadeiro-cutout.webp": {
+   "path": "/assets/brigadeiro-cutout.webp",
+   "bytes": 141436,
+   "sha256": "05a308a2228524900d77ed6a0865516e0aa34d584c0465e315746a59f54599e0",
+   "type": "application/octet-stream"
+  },
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/assets/beijinho-cutout.webp": {
+   "path": "/assets/beijinho-cutout.webp",
+   "bytes": 95872,
+   "sha256": "7c0822743153c850fd040d8ad5e10ea32458de274a291638e92eadfa4a275853",
+   "type": "application/octet-stream"
+  },
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/assets/opening-table.webp": {
+   "path": "/assets/opening-table.webp",
+   "bytes": 349290,
+   "sha256": "ef24563f495ef35b2658532ed4dbeecfb57eb4b36aaf3d85c105c33df2343c4c",
+   "type": "application/octet-stream"
+  },
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/app.js": {
+   "path": "/app.js",
+   "bytes": 9257,
+   "sha256": "67ad69f81e2d042b44f5d9af71dc877b4557284dfd61d6d603fc5bf1e5ce4d85",
+   "type": "text/javascript"
+  },
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/assets/sweets.webp": {
+   "path": "/assets/sweets.webp",
+   "bytes": 228128,
+   "sha256": "10c3b170d0452fad799d8db85570d3aac3463119ad411d636ca42ae7b8d14c40",
+   "type": "application/octet-stream"
+  },
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/opening.css": {
+   "path": "/opening.css",
+   "bytes": 5411,
+   "sha256": "10717add11ddf996c0db1c7b2b3a2cda8bc9d13afe12c85c8e72a08fefef6454",
+   "type": "text/css"
+  },
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/vendor/swiper/swiper-bundle.min.js": {
+   "path": "/vendor/swiper/swiper-bundle.min.js",
+   "bytes": 153767,
+   "sha256": "7ca50b195b0750f755251fcf87daca8ac30b29c6c7674b13ba1be35aa4d3d209",
+   "type": "text/javascript"
+  },
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/assets/hero-rose.webp": {
+   "path": "/assets/hero-rose.webp",
+   "bytes": 197830,
+   "sha256": "c254779226bce4bf2258c9ca6b1e32bd0674b3538c56fd63753800fc53e774da",
+   "type": "application/octet-stream"
+  },
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/styles.css": {
+   "path": "/styles.css",
+   "bytes": 62029,
+   "sha256": "295cd76e4febff1fdf70a7dbb7418c89eb76fdbfd3c4f85827b697c15db42a14",
+   "type": "text/css"
+  },
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/modules/section-motion.js": {
+   "path": "/modules/section-motion.js",
+   "bytes": 3094,
+   "sha256": "24da962c1ec74824709179f780b5980dd26e77c32cddef5746a599c64f31d7bb",
+   "type": "text/javascript"
+  },
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/modules/navigation.js": {
+   "path": "/modules/navigation.js",
+   "bytes": 2409,
+   "sha256": "062a375827a65fcddfb36877c4454bb897b908823009187706259bacaac727ec",
+   "type": "text/javascript"
+  },
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/modules/cart.js": {
+   "path": "/modules/cart.js",
+   "bytes": 2535,
+   "sha256": "80e4da1418cdc073ad8f577cfc95abb30f2582d9a2232e2d85fe8642f5896b31",
+   "type": "text/javascript"
+  },
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/modules/motion.js": {
+   "path": "/modules/motion.js",
+   "bytes": 2392,
+   "sha256": "a34eafe31fc4b35d9a528476c2c533a727a3b5b788ce098f1376ed376b2a8a6e",
+   "type": "text/javascript"
+  },
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/modules/testimonials.js": {
+   "path": "/modules/testimonials.js",
+   "bytes": 5207,
+   "sha256": "324e0fe9e5922fcdd669ecc84aa97298cde4e5a64ff2288acc47bd325e6117a0",
+   "type": "text/javascript"
+  },
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/modules/order-flow.js": {
+   "path": "/modules/order-flow.js",
+   "bytes": 10698,
+   "sha256": "954149483e0549ddf7a141177400c7f6a3a69b7ca71c317258861d9211a704c5",
+   "type": "text/javascript"
+  },
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/modules/media-fallback.js": {
+   "path": "/modules/media-fallback.js",
+   "bytes": 825,
+   "sha256": "7b2ed005a24a4f53682a168d13f90ffa0bd9595174a31ab44a97f03870e39445",
+   "type": "text/javascript"
+  },
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/modules/disclosure.js": {
+   "path": "/modules/disclosure.js",
+   "bytes": 3437,
+   "sha256": "3961f81fa827a22feb16285f48ba4474cf29f1649f3993187cdb830eb4ca21e3",
+   "type": "text/javascript"
+  },
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/content.js": {
+   "path": "/content.js",
+   "bytes": 3655,
+   "sha256": "99758f114f1249a0c957114ab404f9c214cc8addd337002420d9f48c50325232",
+   "type": "text/javascript"
+  },
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/vendor/lenis-1.3.26.mjs": {
+   "path": "/vendor/lenis-1.3.26.mjs",
+   "bytes": 33166,
+   "sha256": "b7a2f6896b9ce086d8192ff17c91aad457447976764971fe5011c42169602e9e",
+   "type": "text/javascript"
+  },
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/modules/testimonials-content.js": {
+   "path": "/modules/testimonials-content.js",
+   "bytes": 872,
+   "sha256": "200e1fcfd4b42179e1c2a9496245c04a60f1882f0d8a30bdc13082094db83229",
+   "type": "text/javascript"
+  },
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/vendor/embla/carousel.js": {
+   "path": "/vendor/embla/carousel.js",
+   "bytes": 48089,
+   "sha256": "07a80a91c1834772c8435fc4a234ba6f811daa7ade991903a8a75885d603e077",
+   "type": "text/javascript"
+  },
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/utils/spring.js": {
+   "path": "/utils/spring.js",
+   "bytes": 2590,
+   "sha256": "2730493b92dd5c8ea8d7ac60045164929efff078d3bceafbf287b1ad2c7b85af",
+   "type": "text/javascript"
+  },
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/vendor/embla/auto-scroll.js": {
+   "path": "/vendor/embla/auto-scroll.js",
+   "bytes": 6073,
+   "sha256": "7416f0ba63502319dc7a48e46fdd92f9d397ced4f058a9a1cc0a90eb4ca3239a",
+   "type": "text/javascript"
+  },
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/vendor/embla/wheel-gestures.js": {
+   "path": "/vendor/embla/wheel-gestures.js",
+   "bytes": 8222,
+   "sha256": "c9ac82802092785f4bc2389c728b5b05544d55ae85cd7757bd1b33752b9635f0",
+   "type": "text/javascript"
+  },
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/utils/order-summary.js": {
+   "path": "/utils/order-summary.js",
+   "bytes": 947,
+   "sha256": "362f1a2aa5bed064bd1bdb7ec5b49097707d00ca5f311667cae054300ceaa142",
+   "type": "text/javascript"
+  }
+ },
+ "failures": {
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/Bolos,": "HTTP Error 404: Not Found",
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/width=device-width,initial-scale=1": "HTTP Error 404: Not Found",
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/assets/${product.image}": "HTTP Error 404: Not Found",
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/modules/assets/${product.image}": "HTTP Error 404: Not Found",
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/modules/assets/image-placeholder.svg": "HTTP Error 404: Not Found",
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/strawberry.webp": "HTTP Error 404: Not Found",
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/hero.webp": "HTTP Error 404: Not Found",
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/sweets.webp": "HTTP Error 404: Not Found",
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/caramelo.webp": "HTTP Error 404: Not Found",
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/brigadeiro.webp": "HTTP Error 404: Not Found",
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/chocolate.webp": "HTTP Error 404: Not Found",
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/beijinho.webp": "HTTP Error 404: Not Found",
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/leitinho.webp": "HTTP Error 404: Not Found",
+  "https://caramelo-confeitaria-dms.sharpdog128.chatgpt.site/hero-rose.webp": "HTTP Error 404: Not Found"
+ }
+}

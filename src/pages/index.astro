@@ -1,0 +1,19 @@
+---
+import { getLumeHome, getSiteSettings } from "../infrastructure/sanity/content-repository";
+import LumeHome from "../templates/lume/LumeHome.astro";
+import LumeLayout from "../templates/lume/LumeLayout.astro";
+
+const { tenant } = Astro.locals;
+const [settings, home] = await Promise.all([getSiteSettings(tenant.id), getLumeHome(tenant.id)]);
+
+if (!settings || !home) {
+	console.error(
+		JSON.stringify({ event: "content.missing", tenant: tenant.id, page: "home", settings: !!settings, home: !!home }),
+	);
+	return new Response("Conteúdo indisponível", { status: 503, headers: { "cache-control": "no-store" } });
+}
+---
+
+<LumeLayout settings={settings}>
+	<LumeHome content={home} />
+</LumeLayout>
